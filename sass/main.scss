@@ -1,7 +1,6 @@
 /* custom variables */
 $primary: #c29938;
 $light: #fbf5e5;
-
 /* import the functions and variablse */
 @import "../node_modules/bootstrap/scss/functions";
 @import "../node_modules/bootstrap/scss/variables";
@@ -12,6 +11,7 @@ $custom-theme-colors: (
 );
 
 $theme-colors: map-merge($custom-theme-colors, $theme-colors);
+$link-hover-color: darken($link-color, 15%);
 
 /* bootstrap import */
 @import "../node_modules/bootstrap/scss/bootstrap";
